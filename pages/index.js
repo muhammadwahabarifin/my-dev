@@ -13,6 +13,7 @@ import About2 from "@/components/About/About2";
 import Projects from "@/components/Projects/Projects";
 import Work from "@/components/Work/Work";
 import ProgressIndicator from "@/components/ProgressIndicator/ProgressIndicator";
+import Collaboration from "@/components/Collaboration/Collaboration";
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
@@ -68,6 +69,7 @@ export default function Home() {
             <About2 clientHeight={clientHeight} />
             <Projects isDekstop={isDekstop} clientHeight={clientHeight} />
             <Work isDekstop={isDekstop} />
+            <Collaboration clientHeight={clientHeight}/>
           </main>
         </>
       )}
