@@ -5,6 +5,7 @@ import Typed from "typed.js";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import Button from "../Button/Button";
+import Profiles from "../Profiles/Profiles";
 
 const Hero = () => {
   const options = {
@@ -94,7 +95,7 @@ const Hero = () => {
           />
         </p>
         <div className="staggered-reveal">
-          {/* <Profile /> */}
+         <Profiles />
           </div>
         <div className="staggered-reveal pt-4">
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">

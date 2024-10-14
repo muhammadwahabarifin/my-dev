@@ -1,6 +1,6 @@
-import { SOCIAL_lINKS } from 'constants';
-import styles from './profiles.module.scss'
-import { Icon } from "@/components/Icons";
+import { SOCIAL_lINKS } from "@/constants";
+import styles from "./profiles.module.scss";
+import { Icon } from "../Icons";
 
 const Profiles = () => {
   return (

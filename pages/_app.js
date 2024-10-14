@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
       <main
         className={`${calibre.variable} font-sans ${jetbrains_mono.variable} font-mono`}
       >
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
         <GoogleAnalytics />
       </main>
     </>
