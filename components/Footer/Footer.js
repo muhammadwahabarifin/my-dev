@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="w-full h-full pt-32">
         <div className="section-container flex flex-col h-full justify-end z-10 items-center py-12">
           <h1 className="font-medium text-3xl md:text-4xl text-center capitalize">
-            Don't hesitate to learn and try
+            Dont hesitate to learn and try
           </h1>
           <div className="text-center">
             <Profiles />

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { MENULINKS, TYPED_STRINGS } from "@/constants";
 import styles from "./hero.module.scss";
 import Typed from "typed.js";
