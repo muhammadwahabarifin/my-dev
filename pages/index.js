@@ -14,6 +14,8 @@ import Projects from "@/components/Projects/Projects";
 import Work from "@/components/Work/Work";
 import ProgressIndicator from "@/components/ProgressIndicator/ProgressIndicator";
 import Collaboration from "@/components/Collaboration/Collaboration";
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -71,7 +73,9 @@ export default function Home() {
             <Projects isDekstop={isDekstop} clientHeight={clientHeight} />
             <Work isDekstop={isDekstop} />
             <Collaboration clientHeight={clientHeight} />
+            <Contact />
           </main>
+          <Footer />
         </>
       )}
     </>
