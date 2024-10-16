@@ -4,6 +4,8 @@ import React, { useEffect, useRef } from "react";
 import { MENULINKS, PROJECTS } from "@/constants";
 import ProjectTile from "./ProjectTile/ProjectTile";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const Projects = ({ isDekstop, clientHeight }) => {
   const sectionRef = useRef(null);
   const sectionTileRef = useRef(null);
@@ -36,7 +38,11 @@ const Projects = ({ isDekstop, clientHeight }) => {
 
     revealTl.from(
       sectionRef.current.querySelectorAll(".staggered-reveal"),
-      { opacity: 0, duration: 0.5, staggered: 0.5 },
+      {
+        opacity: 0,
+        duration: 0.5,
+        stagger: 0.5,
+      },
       "<"
     );
 

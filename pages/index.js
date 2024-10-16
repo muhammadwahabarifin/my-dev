@@ -16,7 +16,7 @@ import ProgressIndicator from "@/components/ProgressIndicator/ProgressIndicator"
 import Collaboration from "@/components/Collaboration/Collaboration";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
-import Cursor from "@/components/Cursor/Cursor";
+// import Cursor from "@/components/Cursor/Cursor";
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
@@ -58,7 +58,7 @@ export default function Home() {
             <Menu />
           </Header>
           <ProgressIndicator />
-          <Cursor isDesktop={isDekstop}/>
+          {/* <Cursor isDesktop={isDekstop}/> */}
           <main className="flex flex-col">
             <div
               role="img"

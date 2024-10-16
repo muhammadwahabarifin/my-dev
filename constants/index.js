@@ -3,8 +3,7 @@ export const METADATA = {
   title: "Portfolio | WahabArf_",
   description:
     "M Wahab is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  // siteUrl: "https://www.shubhporwal.me/",
-  // twitterHandle: "@shubh731",
+
   keywords: [
     "WahabArf",
     "Frontend Engineer",
