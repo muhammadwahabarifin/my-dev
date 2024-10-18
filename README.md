@@ -2,7 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-Review: https://my-dev-u7r5.vercel.app/
 
 First, run the development server:
 
